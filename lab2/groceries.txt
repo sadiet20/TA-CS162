@@ -1,0 +1,6 @@
+5
+apples 2
+bread 1
+ice_cream 24
+pizza 3
+milk 1
