@@ -1,3 +1,5 @@
+//the .h file has struct definitions and all function prototypes used in the corresponding .cpp file
+
 //header guards prevent redefinition if you have multiple includes in the same program
 #ifndef SHOPPING_H
 #define SHOPPING_H

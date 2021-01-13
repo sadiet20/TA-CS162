@@ -1,3 +1,10 @@
+/*
+ * Lab 2 Demo by Sadie Thomas
+ * 1/12/2020
+ */
+
+//main/driver file has the main function and is where program execution begins
+
 #include <iostream>
 #include <fstream> 		//need for file input/output
 #include "shopping.h"	//include the .h, not the .cpp, use " " for local files instead of < >

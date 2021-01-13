@@ -1,3 +1,5 @@
+//the other .cpp file has the function definition for the functions listed in corresponding .h file
+
 #include <iostream>
 #include <fstream>
 #include "shopping.h"	//must include corresponding .h file
