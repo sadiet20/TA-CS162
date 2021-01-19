@@ -1,3 +1,8 @@
+/*
+ * Lab 3 Demo by Sadie Thomas
+ * 1/19/2021
+ */
+
 //driver file where I use the classes and functions declared in the other files
 
 #include <iostream>

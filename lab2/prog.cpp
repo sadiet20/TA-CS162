@@ -1,6 +1,6 @@
 /*
  * Lab 2 Demo by Sadie Thomas
- * 1/12/2020
+ * 1/12/2021
  */
 
 //main/driver file has the main function and is where program execution begins
@@ -44,6 +44,7 @@ int main(){
 
 	//open file to append to the end
 	//if the file doesn't exist, it will create a new one
+	//fout.open("shopping_list.txt");		//this would overwrite anything already in the file
 	fout.open("shopping_list.txt", ios::out | ios::app);
 
 	//write into file
