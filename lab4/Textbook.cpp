@@ -1,3 +1,5 @@
+//implementation file for Textbook class
+
 #include <iostream>
 #include "Textbook.h"
 

@@ -8,13 +8,14 @@ using namespace std;
 
 Backpack::Backpack(){
 	cout << "Backpack default constructor called" << endl;
-	this->fill_backpack();
+	this->fill_backpack();		//gets user input to fill backpack
 }
 
 
 Backpack::Backpack(const Backpack& old_backpack){
 	cout << "Backpack copy constructor called" << endl;
-	this->color = old_backpack.color;
+
+	this->color = old_backpack.color;			//can access private member variable since we're inside a member function (even though it's not the 'this' object)
 	this->num_books = old_backpack.num_books;
 
 	//don't want to just set the book pointers equal to each other
@@ -32,6 +33,7 @@ Backpack::Backpack(const Backpack& old_backpack){
 //a lot like the copy constructor, but we must check if they're pointing to the same object first
 Backpack& Backpack::operator=(const Backpack& old_backpack){
 	cout << "Backpack operator= overload called" << endl;
+
 	//make sure they're not already pointing to the same data (would be bad to delete then try to assign based off of deleted values)
 	if(this != &old_backpack){
 		if(this->num_books!=0)		//if there's something in the array
