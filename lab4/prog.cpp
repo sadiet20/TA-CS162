@@ -1,4 +1,10 @@
+/*
+ * Lab 4 Demo by Sadie Thomas
+ * 1/25/2021
+ */
+
 //driver file containing main
+
 #include <iostream>
 #include "Backpack.h"
 
