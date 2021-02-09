@@ -1,3 +1,8 @@
+/*
+ * Lab 6 Demo by Sadie Thomas
+ * 2/9/2021
+ */
+
 //main.cpp - driver
 
 #include <iostream>
