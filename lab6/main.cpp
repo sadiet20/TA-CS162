@@ -11,7 +11,7 @@ int main(){
 	//parameterized constructors
 	Movie best_movie("Avengers Endgame", "Action", 10, 3.03);
 	cout << endl;
-	Movie another_best_movie("Night at the Museum", "Comedy", 10, 3.03);
+	Movie another_best_movie("Night at the Museum", "Comedy", 10, 1.8);
 	cout << endl;
 
 	//default constructor (sets title to "unkown title" and rating to 0)

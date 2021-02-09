@@ -10,7 +10,7 @@
 //public inheritance: all the members of Tv keep the same accessing rights (private->private, protected->protected, public->public)
 class Movie : public Tv{
 	private:
-		float length;
+		float runtime;
 
 	public:
 		//constructors

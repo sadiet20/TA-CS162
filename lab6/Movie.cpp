@@ -13,7 +13,7 @@ Movie::Movie(){
 	//then goes into the body of this function
 	//set member variables that are specific to this child class
 	cout << "Executing Movie default constructor" << endl;
-	this->length = 0;
+	this->runtime = 0;
 }
 
 
@@ -26,7 +26,7 @@ Movie::Movie(string t, string g, int r, float l){
 	this->genre = g;
 	this->rating = r;
 	//set the member variable specific to this child class
-	this->length = l;
+	this->runtime = l;
 }
 
 
