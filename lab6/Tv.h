@@ -10,17 +10,20 @@ using namespace std;
 
 
 class Tv {
-	//only this class and any derived classes can access (need for << overload operator in Movie class)
+	//only this class any any derived classes can access protected member variables
 	protected:
 		string title;
 		string genre;
-		int rating;			//personal rating out of 10
+		int rating;			//personal quality rating of movie (out of 10)
 
+	//anyone can access
 	public:
 		//constructors
 		Tv();						//default
 		Tv(string, string, int);	//parameterized
 
+
+		//getters
 		string get_title();
 		int get_rating();
 
