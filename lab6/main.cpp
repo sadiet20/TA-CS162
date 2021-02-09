@@ -18,7 +18,7 @@ int main(){
 	Movie default_movie;
 
 
-	//test our equality operator overload (==) which compares the titles of the two movies
+	//test our equality operator overload (==) which compares the ratings of the two movies
 
 
 	cout << "\nComparing best_movie and another_best_movie..." << endl;
