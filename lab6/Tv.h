@@ -10,7 +10,7 @@ using namespace std;
 
 
 class Tv {
-	//only this class any any derived classes can access protected member variables
+	//only this class and any derived classes can access protected member variables
 	protected:
 		string title;
 		string genre;
