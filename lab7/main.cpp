@@ -16,7 +16,7 @@ using namespace std;
 
 int main(){
 	//use parameterized constructors to create two derived objects
-	Movie best_movie("Avengers Endgame", "Action", 10, 3.03);
+	Movie best_movie("Men in Black", "Action", 10, 1.883);
 	Show best_show("Psych", "Comedy", 10, 8);
 
 	//try creating Tv object

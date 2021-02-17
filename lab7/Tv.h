@@ -28,7 +28,7 @@ class Tv {
 		int get_rating();
 
 
-		//abstract virtual function makes Tv an abstract class
+		//pure virtual function makes Tv an abstract class
 		//by setting it equal to zero, we're making derived classes provide a definition for this function
 		//now we can't create objects of type Tv because this function isn't defined
 		virtual void print_stats() = 0;
